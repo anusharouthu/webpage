@@ -1,0 +1,40 @@
+<html>
+        <head>
+                <link rel="stylesheet" type="text/css" href="style.css">
+                <script>
+                        function BackNav() {
+                        window.history.back();
+                        }
+                    </script>
+            </head>
+<body>
+        <div align="center">
+                <form action="sample.html">
+                    <div id="mydiv" class="div">
+                        <span style="font-size:40px;cursor:pointer" onclick="BackNav()" class="Backnav">&#8249;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="opennav">&#9776;</span>&nbsp;&nbsp;&nbsp;
+                        <a href="Settings.html" id="settings"><img src="https://cdn3.iconfinder.com/data/icons/black-easy/512/538474-user_512x512.png" 
+                            class="starNav"width="30" height="30"></a>
+                    </div> 
+                    <h2>Account Settings</h2>
+                </form>
+        </div>
+        <div align="center">
+        <input  type="input-box" class="input-box" placeholder=" First Name"><br><br>
+        <input  type="input-box" class="input-box" placeholder=" Last Name"><br><br>
+        <input  type="email" class="input-box" placeholder="Your Email"><br><br>
+        <input  type="input-box" class="input-box" placeholder=" Mobile number"><br>
+        <p>A confirmation code will be sent to this number</p>
+        <input type="password" class="input-box" placeholder="Your Password"><br>
+        <p><b>Password Rules:</b></p>
+        <ul><li>Must contain at least 8 characters</li>
+                <li>Must contain at least 1 uppercase letter</li>
+                <li>Must contain at least 1 lowercase letter</li>
+                <li>Must contain at least 1 number</li>
+                <li>Must contain at least special character</li>
+        </ul>
+        <input class="input-box" type="input-box" placeholder=" Confirm Password"><br><br>
+        <a href="signin.html"><button type="button" class ="sign-up">Update</button></a><br><br>
+    </div>
+</body>
+</html>

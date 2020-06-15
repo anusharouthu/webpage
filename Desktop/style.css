@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(238, 243, 245);
+  margin: 250px;
+}
+h2 {
+  color:#000080;
+  align-content: center;
+}
+.imgone {
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+.imgtwo {
+  display: inline-block;
+  font-size: 48px;
+  width: 48px;
+  overflow: hidden;
+}
+  button.Sign-Up{
+    color:#fffafa;
+    background-color:rgb(22, 153, 120);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 6px 76px;
+    border-radius: 4px;
+  }
+  button.Register{
+    color:#fffafa;
+    background-color: #0a0a27;
+    cursor: pointer;
+    outline: none;
+    border:none;
+    padding: 6px 76px;
+    border-radius: 4px;
+  }
+  .psw{
+    color:rgb(22, 153, 120);
+  }
+  button.Skip{
+    padding:0.25rem 0.5rem;
+    color:#20B3AB;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+  }
+ input.input-box{
+    width:250px;
+    height:30px;
+    display:block;
+   }
+   input.reset{
+    color:#fffafa;
+    background-color:rgb(22, 153, 120);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 6px 76px;
+    border-radius: 4px;
+   }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 100;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 18px 15px 18px 132px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  ul{
+    list-style: none;
+    list-style-position: left;
+  }
+  
+  /* @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } */
+
